@@ -1,2 +1,16 @@
 
 /* Your CSS Code here. */
+thead{
+	background-color:#E55451;
+	color: white;
+	text-align: left;
+}
+td{
+	text-align: right;
+}
+td:nth-child(1){
+	text-align: left;
+}
+tr:nth-child(even){
+	background-color: #ccc;
+}
